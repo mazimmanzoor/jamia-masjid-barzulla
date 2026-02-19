@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 app.secret_key = "hazim_secret_key"
 
-USERNAME = "admin"
+USERNAME = "Nimaz@4321"
 PASSWORD = "1234"
 
 def load_times():
@@ -59,3 +59,4 @@ def logout():
 
 if __name__ == "__main__":
     app.run()
+

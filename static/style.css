@@ -26,12 +26,13 @@ h1 {
 
 /* NAMAZ BOARD */
 .namaz-board {
-    font-size: 42px;
+    font-size: 45px;
     padding: 40px;
     border: 5px solid lime;
     border-radius: 20px;
     box-shadow: 0 0 30px lime;
     text-align: left;
+    height : 700px
 }
 
 .namaz-board p {

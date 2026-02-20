@@ -184,3 +184,32 @@ h1 {
         font-size: 40px;
     }
 }
+/* HADITH BOX */
+.hadith-box {
+    margin-top: 80px;
+    padding: 40px;
+    border-top: 4px solid gold;
+    background: #111;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.hadith-box h3 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.hadith-box p {
+    max-width: 1000px;
+    margin: auto;
+    font-style: italic;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hadith-box {
+        font-size: 18px;
+        padding: 20px;
+    }
+}

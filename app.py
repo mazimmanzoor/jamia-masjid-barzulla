@@ -44,7 +44,8 @@ def admin():
             "isha": request.form["isha"],
             "jumah": request.form["jumah"],
             "sehri": request.form["sehri"],
-            "iftar": request.form["iftar"]
+            "iftar": request.form["iftar"],
+             "hadith": request.form["hadith"] 
         }
         save_times(data)
         return redirect("/")
@@ -59,4 +60,5 @@ def logout():
 
 if __name__ == "__main__":
     app.run()
+
 

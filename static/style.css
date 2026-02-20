@@ -214,5 +214,6 @@ h1 {
     .hadith-box {
         font-size: 20px;  /* Adjusted mobile size */
         padding: 20px;
+        width:100%;
     }
 }

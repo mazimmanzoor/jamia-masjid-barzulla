@@ -39,10 +39,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 450px;
-    margin: 40px 0;
+    margin: 60px 0;   /* Increased vertical spacing */
     color: #00ff00;
 }
-
 .namaz-board span {
     color: red;
     font-weight: bold;
@@ -129,7 +128,7 @@ h1 {
 
     .namaz-board p {
         width: 280px;
-        margin: 15px 0;
+        margin: 20px 0;
     }
 
     .right-section {

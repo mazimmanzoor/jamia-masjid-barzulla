@@ -57,8 +57,11 @@ def admin():
 def logout():
     session.clear()
     return redirect("/")
-
+@app.route("/cron-update")
+def cron_update():
+    return "Cron Success", 200
 if __name__ == "__main__":
     app.run()
+
 
 

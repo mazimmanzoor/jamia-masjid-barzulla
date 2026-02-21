@@ -6,8 +6,8 @@ import os
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY")
 
-USERNAME = "Nimaz@4321"
-PASSWORD = "1234"
+USERNAME = os.environ.get("ADMIN_USERNAME")
+PASSWORD = os.environ.get("ADMIN_PASSWORD")
 
 def load_times():
     with open("times.json", "r") as f:
@@ -63,6 +63,7 @@ def cron_update():
     return "Cron Success", 200
 if __name__ == "__main__":
     app.run()
+
 
 
 

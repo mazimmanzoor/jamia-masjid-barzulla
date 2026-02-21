@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, redirect, session
 import json
 from datetime import datetime
+import os
 
 app = Flask(__name__)
-app.secret_key = "hazim_secret_key"
+app.secret_key = os.environ.get("SECRET_KEY")
 
 USERNAME = "Nimaz@4321"
 PASSWORD = "1234"
@@ -62,6 +63,7 @@ def cron_update():
     return "Cron Success", 200
 if __name__ == "__main__":
     app.run()
+
 
 
 
